@@ -1,0 +1,36 @@
+{
+  "binary": {
+    "best_params": {
+      "class_weight": "balanced",
+      "l2_regularization": 1,
+      "learning_rate": 0.1547487271344567,
+      "max_features": 0.2,
+      "max_iter": 600,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 20
+    },
+    "tuned_cv_macro_f1": 0.933682752031699,
+    "tuned_cv_macro_f1_std": 0.004506418625082172,
+    "baseline_cv_macro_f1": 0.9072639956340132,
+    "worst_candidate_macro_f1": 0.874924208611597,
+    "candidates": 30,
+    "seconds": 641.0
+  },
+  "family": {
+    "best_params": {
+      "class_weight": null,
+      "l2_regularization": 0.1,
+      "learning_rate": 0.035543498097189236,
+      "max_features": 0.2,
+      "max_iter": 100,
+      "max_leaf_nodes": 127,
+      "min_samples_leaf": 10
+    },
+    "tuned_cv_macro_f1": 0.8355879774512223,
+    "tuned_cv_macro_f1_std": 0.0048430802310676325,
+    "baseline_cv_macro_f1": 0.8310775804673716,
+    "worst_candidate_macro_f1": 0.5847564125333023,
+    "candidates": 30,
+    "seconds": 2708.9
+  }
+}

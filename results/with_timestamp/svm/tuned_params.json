@@ -1,0 +1,28 @@
+{
+  "binary": {
+    "best_params": {
+      "C": 3000,
+      "gamma": 0.005,
+      "class_weight": null
+    },
+    "tuned_cv_macro_f1": 0.9048480674594266,
+    "tuned_cv_macro_f1_std": 0.010455078098749498,
+    "baseline_cv_macro_f1": 0.7070030983898824,
+    "worst_candidate_macro_f1": 0.6704695180732426,
+    "candidates": 30,
+    "seconds": 560.6
+  },
+  "family": {
+    "best_params": {
+      "C": 3000,
+      "gamma": 0.005,
+      "class_weight": null
+    },
+    "tuned_cv_macro_f1": 0.7820878660161573,
+    "tuned_cv_macro_f1_std": 0.004610270951518668,
+    "baseline_cv_macro_f1": 0.714545819457539,
+    "worst_candidate_macro_f1": 0.6032438365605672,
+    "candidates": 30,
+    "seconds": 1258.4
+  }
+}

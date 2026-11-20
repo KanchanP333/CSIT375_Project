@@ -1,0 +1,185 @@
+{
+  "binary": {
+    "train_rows": 18768,
+    "test_rows": 4693,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "min_samples_leaf": 1,
+      "max_features": 0.5,
+      "max_depth": null,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "cv_macro_f1": 0.9720193282543574,
+    "accuracy": 0.9925420839548263,
+    "macro_f1": 0.9742317328941958,
+    "per_class": {
+      "Benign": {
+        "precision": 0.9696132596685083,
+        "recall": 0.936,
+        "f1-score": 0.9525101763907734,
+        "support": 375.0
+      },
+      "Malware": {
+        "precision": 0.9944585546063265,
+        "recall": 0.9974525243168133,
+        "f1-score": 0.9959532893976182,
+        "support": 4318.0
+      },
+      "accuracy": 0.9925420839548263,
+      "macro avg": {
+        "precision": 0.9820359071374174,
+        "recall": 0.9667262621584067,
+        "f1-score": 0.9742317328941958,
+        "support": 4693.0
+      },
+      "weighted avg": {
+        "precision": 0.9924732604231425,
+        "recall": 0.9925420839548263,
+        "f1-score": 0.9924819134381964,
+        "support": 4693.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        351,
+        24
+      ],
+      [
+        11,
+        4307
+      ]
+    ],
+    "labels": [
+      "Benign",
+      "Malware"
+    ],
+    "roc_auc": 0.9973969430291801
+  },
+  "family": {
+    "train_rows": 17267,
+    "test_rows": 4318,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "min_samples_leaf": 1,
+      "max_features": 0.5,
+      "max_depth": null,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "cv_macro_f1": 0.867828464268762,
+    "accuracy": 0.8682260305697082,
+    "macro_f1": 0.8722935322732569,
+    "per_class": {
+      "RedLineStealer": {
+        "precision": 0.9490644490644491,
+        "recall": 0.9480789200415368,
+        "f1-score": 0.9485714285714286,
+        "support": 963.0
+      },
+      "Downloader": {
+        "precision": 0.9601449275362319,
+        "recall": 0.9742647058823529,
+        "f1-score": 0.9671532846715328,
+        "support": 272.0
+      },
+      "RAT": {
+        "precision": 0.8677839851024208,
+        "recall": 0.7766666666666666,
+        "f1-score": 0.8197009674582234,
+        "support": 600.0
+      },
+      "BankingTrojan": {
+        "precision": 0.9315217391304348,
+        "recall": 0.8983228511530398,
+        "f1-score": 0.9146211312700107,
+        "support": 954.0
+      },
+      "SnakeKeyLogger": {
+        "precision": 0.7772511848341233,
+        "recall": 0.8078817733990148,
+        "f1-score": 0.7922705314009661,
+        "support": 812.0
+      },
+      "Spyware": {
+        "precision": 0.7599486521181001,
+        "recall": 0.8256624825662483,
+        "f1-score": 0.7914438502673797,
+        "support": 717.0
+      },
+      "accuracy": 0.8682260305697082,
+      "macro avg": {
+        "precision": 0.8742858229642935,
+        "recall": 0.8718128999514767,
+        "f1-score": 0.8722935322732569,
+        "support": 4318.0
+      },
+      "weighted avg": {
+        "precision": 0.8708804447857326,
+        "recall": 0.8682260305697082,
+        "f1-score": 0.8688508640552948,
+        "support": 4318.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        913,
+        3,
+        9,
+        24,
+        10,
+        4
+      ],
+      [
+        3,
+        265,
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        8,
+        5,
+        466,
+        21,
+        64,
+        36
+      ],
+      [
+        37,
+        0,
+        22,
+        857,
+        19,
+        19
+      ],
+      [
+        0,
+        3,
+        20,
+        5,
+        656,
+        128
+      ],
+      [
+        1,
+        0,
+        19,
+        10,
+        95,
+        592
+      ]
+    ],
+    "labels": [
+      "RedLineStealer",
+      "Downloader",
+      "RAT",
+      "BankingTrojan",
+      "SnakeKeyLogger",
+      "Spyware"
+    ]
+  }
+}

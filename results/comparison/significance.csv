@@ -1,0 +1,7 @@
+task,model_a,model_b,only_a_correct,only_b_correct,p_value
+binary,Random Forest,SVM,76,51,0.032789561693033514
+binary,Random Forest,Gradient Boosting,22,37,0.06744461190078899
+binary,SVM,Gradient Boosting,45,85,0.000571522703205582
+family,Random Forest,SVM,453,193,4.94887754755158e-25
+family,Random Forest,Gradient Boosting,105,126,0.1880904397938982
+family,SVM,Gradient Boosting,156,437,9.001692974147904e-32

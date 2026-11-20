@@ -1,0 +1,185 @@
+{
+  "binary": {
+    "train_rows": 18768,
+    "test_rows": 4693,
+    "params": {
+      "class_weight": "balanced",
+      "l2_regularization": 1,
+      "learning_rate": 0.1547487271344567,
+      "max_features": 0.1,
+      "max_iter": 1500,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 20
+    },
+    "cv_macro_f1": 0.9348049800712099,
+    "accuracy": 0.9816748348604304,
+    "macro_f1": 0.9390208599249632,
+    "per_class": {
+      "Benign": {
+        "precision": 0.8676844783715013,
+        "recall": 0.9093333333333333,
+        "f1-score": 0.8880208333333334,
+        "support": 375.0
+      },
+      "Malware": {
+        "precision": 0.9920930232558139,
+        "recall": 0.9879573876794813,
+        "f1-score": 0.9900208865165931,
+        "support": 4318.0
+      },
+      "accuracy": 0.9816748348604304,
+      "macro avg": {
+        "precision": 0.9298887508136576,
+        "recall": 0.9486453605064074,
+        "f1-score": 0.9390208599249632,
+        "support": 4693.0
+      },
+      "weighted avg": {
+        "precision": 0.9821520037945701,
+        "recall": 0.9816748348604304,
+        "f1-score": 0.9818704454461218,
+        "support": 4693.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        341,
+        34
+      ],
+      [
+        52,
+        4266
+      ]
+    ],
+    "labels": [
+      "Benign",
+      "Malware"
+    ],
+    "roc_auc": 0.9917430909371623
+  },
+  "family": {
+    "train_rows": 17267,
+    "test_rows": 4318,
+    "params": {
+      "class_weight": null,
+      "l2_regularization": 0.1,
+      "learning_rate": 0.035543498097189236,
+      "max_features": 0.2,
+      "max_iter": 100,
+      "max_leaf_nodes": 127,
+      "min_samples_leaf": 10
+    },
+    "cv_macro_f1": 0.8355879774512223,
+    "accuracy": 0.8318666049096805,
+    "macro_f1": 0.8380836893168641,
+    "per_class": {
+      "RedLineStealer": {
+        "precision": 0.9472595656670114,
+        "recall": 0.9511941848390446,
+        "f1-score": 0.9492227979274611,
+        "support": 963.0
+      },
+      "Downloader": {
+        "precision": 0.9704797047970479,
+        "recall": 0.9669117647058824,
+        "f1-score": 0.9686924493554327,
+        "support": 272.0
+      },
+      "RAT": {
+        "precision": 0.8330170777988615,
+        "recall": 0.7316666666666667,
+        "f1-score": 0.7790594498669032,
+        "support": 600.0
+      },
+      "BankingTrojan": {
+        "precision": 0.9322974472807991,
+        "recall": 0.8805031446540881,
+        "f1-score": 0.9056603773584906,
+        "support": 954.0
+      },
+      "SnakeKeyLogger": {
+        "precision": 0.7239648682559598,
+        "recall": 0.7105911330049262,
+        "f1-score": 0.7172156619018024,
+        "support": 812.0
+      },
+      "Spyware": {
+        "precision": 0.6514619883040935,
+        "recall": 0.7768479776847977,
+        "f1-score": 0.7086513994910941,
+        "support": 717.0
+      },
+      "accuracy": 0.8318666049096805,
+      "macro avg": {
+        "precision": 0.8430801086839622,
+        "recall": 0.8362858119259009,
+        "f1-score": 0.8380836893168641,
+        "support": 4318.0
+      },
+      "weighted avg": {
+        "precision": 0.8384347316964342,
+        "recall": 0.8318666049096805,
+        "f1-score": 0.8336043866253688,
+        "support": 4318.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        916,
+        2,
+        6,
+        23,
+        8,
+        8
+      ],
+      [
+        3,
+        263,
+        2,
+        4,
+        0,
+        0
+      ],
+      [
+        9,
+        3,
+        439,
+        16,
+        70,
+        63
+      ],
+      [
+        38,
+        0,
+        31,
+        840,
+        18,
+        27
+      ],
+      [
+        0,
+        3,
+        25,
+        7,
+        577,
+        200
+      ],
+      [
+        1,
+        0,
+        24,
+        11,
+        124,
+        557
+      ]
+    ],
+    "labels": [
+      "RedLineStealer",
+      "Downloader",
+      "RAT",
+      "BankingTrojan",
+      "SnakeKeyLogger",
+      "Spyware"
+    ]
+  }
+}

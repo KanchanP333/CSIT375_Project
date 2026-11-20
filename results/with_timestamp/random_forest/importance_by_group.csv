@@ -1,0 +1,9 @@
+task,group,features,mdi_share
+binary,API calls,222,0.1606225002372964
+binary,Imported DLLs,9,0.08024640025864359
+binary,PE header,31,0.6453746088246827
+binary,PE sections,38,0.11375649067937728
+family,API calls,222,0.10160141590295972
+family,Imported DLLs,9,0.10248622837919251
+family,PE header,31,0.5530123436801441
+family,PE sections,38,0.24290001203770378

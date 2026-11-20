@@ -1,0 +1,181 @@
+{
+  "binary": {
+    "train_rows": 18768,
+    "test_rows": 4693,
+    "features": 299,
+    "params": {
+      "C": 1000,
+      "gamma": 0.002,
+      "class_weight": null
+    },
+    "cv_macro_f1": 0.8964082588929001,
+    "accuracy": 0.9731515022373748,
+    "macro_f1": 0.8949673241622154,
+    "per_class": {
+      "Benign": {
+        "precision": 0.9628252788104089,
+        "recall": 0.6906666666666667,
+        "f1-score": 0.8043478260869565,
+        "support": 375.0
+      },
+      "Malware": {
+        "precision": 0.9737793851717902,
+        "recall": 0.9976841130152848,
+        "f1-score": 0.9855868222374743,
+        "support": 4318.0
+      },
+      "accuracy": 0.9731515022373748,
+      "macro avg": {
+        "precision": 0.9683023319910995,
+        "recall": 0.8441753898409757,
+        "f1-score": 0.8949673241622154,
+        "support": 4693.0
+      },
+      "weighted avg": {
+        "precision": 0.9729040836832928,
+        "recall": 0.9731515022373748,
+        "f1-score": 0.9711046949081659,
+        "support": 4693.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        259,
+        116
+      ],
+      [
+        10,
+        4308
+      ]
+    ],
+    "labels": [
+      "Benign",
+      "Malware"
+    ],
+    "support_vectors": 1297,
+    "roc_auc": 0.9730578971746179
+  },
+  "family": {
+    "train_rows": 17267,
+    "test_rows": 4318,
+    "features": 299,
+    "params": {
+      "C": 10000,
+      "gamma": 0.005,
+      "class_weight": null
+    },
+    "cv_macro_f1": 0.7778821762738543,
+    "accuracy": 0.7667901806391848,
+    "macro_f1": 0.7785479932575075,
+    "per_class": {
+      "RedLineStealer": {
+        "precision": 0.9374348279457768,
+        "recall": 0.9335410176531672,
+        "f1-score": 0.9354838709677419,
+        "support": 963.0
+      },
+      "Downloader": {
+        "precision": 0.9629629629629629,
+        "recall": 0.9558823529411765,
+        "f1-score": 0.959409594095941,
+        "support": 272.0
+      },
+      "RAT": {
+        "precision": 0.7975708502024291,
+        "recall": 0.6566666666666666,
+        "f1-score": 0.720292504570384,
+        "support": 600.0
+      },
+      "BankingTrojan": {
+        "precision": 0.9119351100811124,
+        "recall": 0.8249475890985325,
+        "f1-score": 0.8662630709961475,
+        "support": 954.0
+      },
+      "SnakeKeyLogger": {
+        "precision": 0.6346704871060171,
+        "recall": 0.5455665024630542,
+        "f1-score": 0.5867549668874172,
+        "support": 812.0
+      },
+      "Spyware": {
+        "precision": 0.5106382978723404,
+        "recall": 0.7364016736401674,
+        "f1-score": 0.6030839520274129,
+        "support": 717.0
+      },
+      "accuracy": 0.7667901806391848,
+      "macro avg": {
+        "precision": 0.7925354226951065,
+        "recall": 0.7755009670771273,
+        "f1-score": 0.7785479932575075,
+        "support": 4318.0
+      },
+      "weighted avg": {
+        "precision": 0.7861705339233678,
+        "recall": 0.7667901806391848,
+        "f1-score": 0.7710229450034332,
+        "support": 4318.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        899,
+        2,
+        10,
+        37,
+        10,
+        5
+      ],
+      [
+        5,
+        260,
+        2,
+        4,
+        1,
+        0
+      ],
+      [
+        13,
+        5,
+        394,
+        19,
+        70,
+        99
+      ],
+      [
+        40,
+        1,
+        37,
+        787,
+        20,
+        69
+      ],
+      [
+        0,
+        2,
+        26,
+        8,
+        443,
+        333
+      ],
+      [
+        2,
+        0,
+        25,
+        8,
+        154,
+        528
+      ]
+    ],
+    "labels": [
+      "RedLineStealer",
+      "Downloader",
+      "RAT",
+      "BankingTrojan",
+      "SnakeKeyLogger",
+      "Spyware"
+    ],
+    "support_vectors": 9163
+  }
+}

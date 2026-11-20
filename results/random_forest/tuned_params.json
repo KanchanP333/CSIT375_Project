@@ -1,0 +1,36 @@
+{
+  "binary": {
+    "best_params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "max_depth": 30,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "tuned_cv_macro_f1": 0.9242953329275532,
+    "tuned_cv_macro_f1_std": 0.003415579530058787,
+    "baseline_cv_macro_f1": 0.9147771336999228,
+    "worst_candidate_macro_f1": 0.8210178203480375,
+    "candidates": 30,
+    "seconds": 148.1
+  },
+  "family": {
+    "best_params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "max_depth": 30,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "tuned_cv_macro_f1": 0.8288671128446431,
+    "tuned_cv_macro_f1_std": 0.006554859903785694,
+    "baseline_cv_macro_f1": 0.821899651489056,
+    "worst_candidate_macro_f1": 0.773343342702262,
+    "candidates": 30,
+    "seconds": 202.8
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "binary": {
+    "train_rows": 18768,
+    "test_rows": 4693,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "max_depth": 30,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "cv_macro_f1": 0.9242953329275532,
+    "accuracy": 0.9784785851267845,
+    "macro_f1": 0.9272615805800899,
+    "per_class": {
+      "Benign": {
+        "precision": 0.8605263157894737,
+        "recall": 0.872,
+        "f1-score": 0.866225165562914,
+        "support": 375.0
+      },
+      "Malware": {
+        "precision": 0.9888708555529794,
+        "recall": 0.9877257989810098,
+        "f1-score": 0.9882979955972657,
+        "support": 4318.0
+      },
+      "accuracy": 0.9784785851267845,
+      "macro avg": {
+        "precision": 0.9246985856712265,
+        "recall": 0.9298628994905049,
+        "f1-score": 0.9272615805800899,
+        "support": 4693.0
+      },
+      "weighted avg": {
+        "precision": 0.9786153255271293,
+        "recall": 0.9784785851267845,
+        "f1-score": 0.9785436143351984,
+        "support": 4693.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        327,
+        48
+      ],
+      [
+        53,
+        4265
+      ]
+    ],
+    "labels": [
+      "Benign",
+      "Malware"
+    ],
+    "roc_auc": 0.9929637177705728
+  },
+  "family": {
+    "train_rows": 17267,
+    "test_rows": 4318,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "max_depth": 30,
+      "criterion": "entropy",
+      "class_weight": "balanced"
+    },
+    "cv_macro_f1": 0.8288671128446431,
+    "accuracy": 0.8270032422417786,
+    "macro_f1": 0.8324976004978873,
+    "per_class": {
+      "RedLineStealer": {
+        "precision": 0.948905109489051,
+        "recall": 0.944963655244029,
+        "f1-score": 0.9469302809573361,
+        "support": 963.0
+      },
+      "Downloader": {
+        "precision": 0.9530685920577617,
+        "recall": 0.9705882352941176,
+        "f1-score": 0.9617486338797814,
+        "support": 272.0
+      },
+      "RAT": {
+        "precision": 0.7985739750445633,
+        "recall": 0.7466666666666667,
+        "f1-score": 0.7717484926787253,
+        "support": 600.0
+      },
+      "BankingTrojan": {
+        "precision": 0.9363128491620112,
+        "recall": 0.8784067085953878,
+        "f1-score": 0.9064359113034073,
+        "support": 954.0
+      },
+      "SnakeKeyLogger": {
+        "precision": 0.7042424242424242,
+        "recall": 0.7155172413793104,
+        "f1-score": 0.7098350641417227,
+        "support": 812.0
+      },
+      "Spyware": {
+        "precision": 0.66167290886392,
+        "recall": 0.7391910739191074,
+        "f1-score": 0.6982872200263505,
+        "support": 717.0
+      },
+      "accuracy": 0.8270032422417786,
+      "macro avg": {
+        "precision": 0.833795976476622,
+        "recall": 0.8325555968497698,
+        "f1-score": 0.8324976004978873,
+        "support": 4318.0
+      },
+      "weighted avg": {
+        "precision": 0.8317928311128401,
+        "recall": 0.8270032422417786,
+        "f1-score": 0.8287022817994149,
+        "support": 4318.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        910,
+        4,
+        10,
+        25,
+        7,
+        7
+      ],
+      [
+        3,
+        264,
+        1,
+        4,
+        0,
+        0
+      ],
+      [
+        8,
+        5,
+        448,
+        16,
+        71,
+        52
+      ],
+      [
+        37,
+        1,
+        31,
+        838,
+        18,
+        29
+      ],
+      [
+        0,
+        3,
+        41,
+        4,
+        581,
+        183
+      ],
+      [
+        1,
+        0,
+        30,
+        8,
+        148,
+        530
+      ]
+    ],
+    "labels": [
+      "RedLineStealer",
+      "Downloader",
+      "RAT",
+      "BankingTrojan",
+      "SnakeKeyLogger",
+      "Spyware"
+    ]
+  }
+}
