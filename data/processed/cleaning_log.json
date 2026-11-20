@@ -1,0 +1,45 @@
+{
+  "hdr_rows_raw": 29807,
+  "hdr_duplicate_hashes_removed": 0,
+  "sec_rows_raw": 29760,
+  "sec_duplicate_hashes_removed": 0,
+  "dll_rows_raw": 29498,
+  "dll_duplicate_hashes_removed": 3,
+  "dll_columns_raw": 629,
+  "dll_columns_kept_min_freq": 26,
+  "api_rows_raw": 29505,
+  "api_duplicate_hashes_removed": 5,
+  "api_columns_raw": 21918,
+  "api_columns_kept_min_freq": 1179,
+  "rows_after_merge": 29489,
+  "missing_values": 0,
+  "constant_columns_removed": 10,
+  "duplicate_samples_removed": 5981,
+  "conflicting_label_samples_removed": 47,
+  "final_rows": 23461,
+  "final_cleaned_features": 1337,
+  "class_counts": {
+    "RedLineStealer": 4815,
+    "BankingTrojan": 4767,
+    "SnakeKeyLogger": 4060,
+    "Spyware": 3585,
+    "RAT": 2998,
+    "Benign": 1876,
+    "Downloader": 1360
+  },
+  "binary_counts": {
+    "benign": 1876,
+    "malware": 21585
+  },
+  "correlated_numeric_removed": 25,
+  "correlated_binary_removed": 168,
+  "selected_features": 300,
+  "selected_by_group": {
+    "api": 222,
+    "sec": 38,
+    "hdr": 31,
+    "dll": 9
+  },
+  "train_rows": 18768,
+  "test_rows": 4693
+}
