@@ -1,6 +1,6 @@
 # AI-Powered Malware Detection and Classification
 
-CSIT375 AI for Cybersecurity, Project 1.
+CSIT375 AI for Cybersecurity, Project.
 
 The system classifies Windows executable (PE) files in two stages, using only
 static features extracted from each file (header fields, section fields,
